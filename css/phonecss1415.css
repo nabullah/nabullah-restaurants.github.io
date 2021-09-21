@@ -1,0 +1,105 @@
+/* Navigation Bar  */
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#navbar ul li a{
+    font-size: 1.5rem;
+    padding: 0px 12px;
+}
+#navbar::before {
+    width: 111%;
+}
+/* Home */
+#home{
+    height: 500px;
+    padding: 3px 84px;
+}
+
+#home::before{
+    height: 550px;
+    width: 111%;
+}
+
+#home h1{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+#home p{
+    font-size: 1.5rem;
+    padding: 24px;
+    width: auto;
+
+}
+
+
+/* Services */
+#services{
+    flex-direction: column;
+}
+
+#services .box img {
+    height: 106px;
+    padding: 0px 14px;
+}
+
+/* Delivery Info */
+
+.delivery-agents{
+    height: 451px;
+}
+.delivery{
+    justify-content: center;
+}
+.delivery img{
+    height: 78px;
+    padding: 5px
+}
+
+.delivery-agents h1{
+    margin-left: 29px;
+    width: auto;
+    text-align: center;
+}
+
+.delivery-info-form{
+   
+    justify-content: center;
+margin-left: 0px ;
+flex-wrap: wrap;
+
+}
+
+.delivery-info-form input{
+    width: 347px;
+    padding: 15px;
+    border: 1px solid #5b5f60;
+}
+
+.delivery-info-form .btn{
+    padding: 7px;
+    width: 381px;
+    border: 1px solid #5b5f60;
+}
+
+.delivery-agents .delivery-info-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery::before{
+    height: 815px;
+    width: 129%;
+}
+/* Footer  */
+footer{
+    position:relative;
+    bottom: 0px;
+    height: 37px;
+    padding: 20px 19px;
+    width: 104%;
+    font-size: 18px;
+}
