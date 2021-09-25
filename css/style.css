@@ -159,8 +159,26 @@ a .btn{
     margin: 12px;
     padding: 10px;
     font-family:Arial, Helvetica, sans-serif;
-    border: 2px solid white;
+    border: 2px solid rgb(15, 15, 15);
     font-size: large;
+ 
+}
+a .btn:hover{
+    border: 2px solid ;
+    animation-name: ordernow;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: normal;
+}
+    @keyframes ordernow {
+        
+     {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+        
+    }
 }
 a .btn:hover{
     background-color: white;
@@ -197,8 +215,8 @@ border-radius: 115px;
 }
 
 .delivery-agents h1{
-    margin-left:908px;
-    margin-top: 70px;
+    text-align: right;
+    width: 86%;
     font-size: 2rem;
     font-family: 'Nunito';
 }
@@ -206,9 +224,10 @@ border-radius: 115px;
 .delivery-info-form{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 88%;
     padding: 20px;
-    margin-left: 829px;
+    position: relative;
+    align-items: flex-end;
 }
 
 .delivery-info-form input{
