@@ -5,11 +5,11 @@
 }
 
 #navbar ul li a{
-    font-size: 1.5rem;
+    font-size: 18px;
     padding: 0px 12px;
 }
 #navbar::before {
-    width: 111%;
+    width: 115%;
 }
 /* Home */
 #home{
@@ -19,18 +19,19 @@
 
 #home::before{
     height: 550px;
-    width: 111%;
+    width: 115%;
 }
 
 #home h1{
     font-size: 1.5rem;
     text-align: center;
+    width: 349px;
 
 }
 #home p{
     font-size: 1.5rem;
     padding: 24px;
-    width: auto;
+    width: 300px;
 
 }
 
@@ -91,7 +92,7 @@ flex-wrap: wrap;
 }
 
 .delivery::before{
-    height: 815px;
+    height: 912px;
     width: 129%;
 }
 /* Footer  */
