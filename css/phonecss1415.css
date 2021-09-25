@@ -9,7 +9,7 @@
     padding: 0px 12px;
 }
 #navbar::before {
-    width: 115%;
+    width: 100%;
 }
 /* Home */
 #home{
@@ -19,7 +19,7 @@
 
 #home::before{
     height: 550px;
-    width: 115%;
+    width: 100%;
 }
 
 #home h1{
@@ -37,6 +37,9 @@
 
 
 /* Services */
+.services-container{
+    align-content: center;
+}
 #services{
     flex-direction: column;
 }
@@ -74,14 +77,14 @@ flex-wrap: wrap;
 }
 
 .delivery-info-form input{
-    width: 347px;
+    width: 245px;
     padding: 15px;
     border: 1px solid #5b5f60;
 }
 
 .delivery-info-form .btn{
     padding: 7px;
-    width: 381px;
+    width: 278px;
     border: 1px solid #5b5f60;
 }
 
@@ -93,7 +96,7 @@ flex-wrap: wrap;
 
 .delivery::before{
     height: 912px;
-    width: 129%;
+    width: 100%;
 }
 /* Footer  */
 footer{
@@ -101,6 +104,6 @@ footer{
     bottom: 0px;
     height: 37px;
     padding: 20px 19px;
-    width: 104%;
+    width: 90%;
     font-size: 18px;
 }
