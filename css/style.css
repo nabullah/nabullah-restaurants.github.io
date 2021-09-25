@@ -82,7 +82,7 @@
 }
 #home::before{
     content: "";
-    background: url('img/bg2.jpg') no-repeat center center/cover;
+    background: url('../bg2.jpg') no-repeat center center/cover;
     position:absolute;
     height: 630px;
     width: 100%;
@@ -189,7 +189,7 @@ border-radius: 115px;
 .delivery::before{
     content: "";
     position: absolute;
-    background: url('img/Delivery/deliverybg.jpg') no-repeat center center/cover;
+    background: url('../../deliverybg.jpg') no-repeat center center/cover;
     height: 809px;
     width: 100%;
     z-index: -1;
