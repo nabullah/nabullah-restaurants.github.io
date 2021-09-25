@@ -61,6 +61,9 @@
     height: 78px;
     padding: 5px
 }
+#delivery-img{
+    text-align: center;
+}
 
 .delivery-agents h1{
     margin-left: 29px;
